@@ -1,0 +1,81 @@
+@keyframes shift
+  {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+@keyframes rotation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+  }
+#rotation{
+  animation: rotation 4s infinite linear;
+ max-width: 300rem;
+ margin-top: 1rem;
+ text-align: center;
+ 
+  }
+#animation{
+  padding-top: 10rem;
+  padding-left: 2rem;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+
+  bottom: 0px;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+#social{
+  position: absolute;
+  
+  right: 0rem;
+  bottom: 0px;
+  
+  border-radius: 15px;
+  background-color: rgb(99, 99, 99);
+  margin: 2rem;
+}
+
+
+.icon{
+  height: 2rem;
+  display:block;
+  float:left;
+  margin-left:25px;
+  position:relative;
+  min-height:35px;
+  max-width:125px;
+  padding-bottom:10px;
+  text-align:center;
+}
+footer{
+  height: 30px;
+  width: 100%;
+  left: 50%;
+  background-image: linear-gradient(#082C60,rgb(18, 17, 48));
+}
+.contact{
+  color: aliceblue;
+  box-align: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+#con{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0em;
+}
+#mailme{
+  margin-right: 0px;
+  padding-left: 30px;
+  right: 0px;
+  size: 50px;
+  font-size: 30px;
+  padding-right: 0.5rem;
+}
