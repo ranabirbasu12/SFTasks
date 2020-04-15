@@ -3,3 +3,14 @@
     background-color: teal;
     color: white;
 }
+#cv{
+    position: absolute;
+    top:1rem;
+    right: 0rem;
+    margin-right: 1.5rem;
+}
+#soc{
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}

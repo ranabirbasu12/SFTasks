@@ -2,3 +2,10 @@
     background-color: teal;
     color: white;
 }
+#cv{
+    position: absolute;
+    margin-bottom: 1.5rem;
+    bottom: 0rem;
+    color: aliceblue;
+    margin-left: 2rem;
+  }

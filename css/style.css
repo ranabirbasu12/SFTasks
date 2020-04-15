@@ -14,7 +14,7 @@
   }
 
 #rotation{
-  animation: rotation 2s infinite linear;
+  animation: rotation 3s infinite linear;
   position: relative;
   width: 30%;
   min-width: 100%;
@@ -81,13 +81,7 @@
   font-size: 30px;
   padding-right: 0.5rem;
 }
-#cv{
-  cursor: progress;
-  position: absolute;
-  margin-top: 1rem;
-  color: aliceblue;
-  margin-left: 2rem;
-}
+
 #resume{
   cursor: pointer;
   bottom: 0px;
