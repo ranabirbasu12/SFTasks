@@ -9,6 +9,7 @@
     border-color: aqua;
     background-color:black;
     margin: 2rem;
+    width: 15rem;
 }
 ul{
     padding: 3px;
@@ -20,10 +21,7 @@ ul{
     padding: 0px;
     width: 13rem;
 }
-#home{
-    background-color: teal;
-    color: white;
-}
+
 li a{
     padding-left: 1rem;
     text-align: left;

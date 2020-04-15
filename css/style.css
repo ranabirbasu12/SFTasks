@@ -39,7 +39,7 @@
 }
 #social{
   position: absolute;
-  
+  text-align: center;
   right: 0rem;
   bottom: 0px;
   padding: 4px;
@@ -104,3 +104,5 @@
       outline: none;
       transition-duration: 1s;
       }
+
+

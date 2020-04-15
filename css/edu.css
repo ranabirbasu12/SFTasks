@@ -1,0 +1,29 @@
+#edu{
+    background-color: teal;
+    color: white;
+}
+#edudiv{
+    left: 0px;
+    right: 0px;
+    
+}
+#edui{
+    max-width: 53rem;
+    display: block;
+    padding: 4rem;
+    margin: auto;
+}
+body{
+    overflow: hidden;
+}
+#soc{
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+#cv{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    margin-right: 1.5rem;
+}
