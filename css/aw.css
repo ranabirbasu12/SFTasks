@@ -14,3 +14,19 @@
     color: white;
     text-align: center;
 }
+#awimg{
+
+    left: 0px;
+    margin: 6rem;
+    padding-top: 5rem;
+    max-height: 25rem;
+    margin-top: 6rem;
+    right: 0px;
+    bottom: 0rem;
+}
+#iii{
+    max-height: 20rem;
+    padding: 1rem;
+    display: block;
+    margin: auto;
+}
