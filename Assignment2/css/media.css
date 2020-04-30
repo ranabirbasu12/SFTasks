@@ -1,6 +1,12 @@
 
 @media(min-width: 992px)
 {
+    .container{
+        display: none;
+    }
+    #row6{
+        min-height: 200px;
+    }
     .col-lg-1, .col-lg-2 ,.col-lg-3, .col-lg-4, .col-lg-6, .col-lg-12
     {
         float: left;
@@ -53,6 +59,10 @@
     .col-md-12{
         width: 100%;
     }
+
+    #team, #techdeg{
+        display: none;
+    }
 }
 @media(max-width: 767px) and (min-width: 680px)
 {
@@ -79,6 +89,11 @@
     .col-sm-12{
         width: 100%;
     }
+
+    #team, #techdeg, #sign{
+        display: none;
+    }
+    
 }
 @media (max-width: 679px)
 {
@@ -105,4 +120,15 @@
     .col-xs-12{
         width: 100%;
     }
+
+    #team, #techdeg, #sign{
+        display: none;
+    }
+    #trial{
+        padding-right: 5px;
+    }
 }
+
+.topnav .icon {
+    display: none;
+  }
