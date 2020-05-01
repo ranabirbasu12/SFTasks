@@ -1,6 +1,10 @@
 
 @media(min-width: 992px)
 {
+    #icons{
+        text-align: right;
+        float: right;
+    }
     .container{
         display: none;
     }
@@ -63,6 +67,9 @@
     #team, #techdeg{
         display: none;
     }
+    #icons{
+        float: left;
+    }
 }
 @media(max-width: 767px) and (min-width: 680px)
 {
@@ -92,6 +99,9 @@
 
     #team, #techdeg, #sign{
         display: none;
+    }
+    #icons{
+        float: left;
     }
     
 }
@@ -127,8 +137,16 @@
     #trial{
         padding-right: 5px;
     }
+    #icons{
+        float: left;
+        text-align: left;
+    }
+    #navbar{
+        height: 80px;
+    }
+    .container{
+        padding-top: 15px;
+        padding-left: 5px;
+        float: left;}
 }
 
-.topnav .icon {
-    display: none;
-  }
