@@ -14,3 +14,28 @@ function yourFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+function func1() {
+  var x = document.getElementById("linesbitch");
+  if (x.className === "navlist") {
+    x.className += " responsive";
+  } else {
+    x.className = "navlist";
+  }
+}
+
+$(document).ready(function(){
+  $(window).scroll(function(){
+  	var scroll = $(window).scrollTop();
+	  if (scroll > 730) {
+      $("#trial").css("background-color" , "#5fcf80");
+      $("#trial").css("color" , "white");
+	  }
+
+	  else{
+      $("#trial").css("background-color" , "white");
+      $("#trial").css("color" , "#5fcf80");
+	  }
+  })
+})

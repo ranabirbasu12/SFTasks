@@ -36,9 +36,11 @@
     font-weight: normal;
     src: local('Gotham Rounded Medium Italic'), url('fonts/Gotham\ Rounded\ Medium\ Italic.woff') format('woff');
     }
+    @import "compass/css3";
 *{
     box-sizing: border-box;
 }
+
 html{
     padding-bottom: 0;
 }
@@ -82,15 +84,32 @@ p{
       float: left;
   }
 #logo{
+    margin-top: 3px;
     max-width: 100%;
     max-height: 100%;
     float: left;
     margin-left: 62.5px;
 }
+#navbar p{
+    z-index: 2;
+    padding-right: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+#smalllogo{
+    z-index: 3;
+    margin: -19px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    height: 100%;
+}
 #trial{
     text-decoration: none;
     float: right;
     color: #5fcf80;
+    background-color: white;
+    border-radius: 8px;
+
 }
 
 #navbar {
@@ -105,22 +124,24 @@ p{
     
   }
   .navlist {
-    margin-top: 5px;
     padding-right: 44.5px;
     padding-left: 44.5px;
     margin-right: 30px;
-      right: 0px;
+    right: 0px;
+    position: absolute;
+    top: 0em;
+    padding-top: 15px;
   }
   /* Navbar links */
   .navlist a {
+      top: 10px;
     font-weight: 500;
     font-size: 0.9em;
     float: right;
     display: block;
     color: rgb(138, 136, 136);
-    
     text-align: center;
-    padding: 14px;
+    padding: 15px 15px 15px 15px;
     margin-left: 15px;
     text-decoration: none;
   }
@@ -165,13 +186,14 @@ p{
     font-weight: 100;
     font-size: 1.8em;
 }
-/*#rowcontainer1{
-    clear: both;
-    display: block;
-    background-image: linear-gradient(rgba(48,56,83,0), rgba(48,56,83,1));
-    background-size: cover;
-    margin: 0;
-}*/
+       /* #rowcontainer1{
+            clear: both;
+            display: block;
+            background-image: linear-gradient(rgba(48,56,83,0), rgba(48,56,83,1));
+            background-size: cover;
+            margin: 0;
+            background-position: bottom;
+        }*/
 .row{
     margin-left: 1em;
     margin-right: 1em;
@@ -235,6 +257,7 @@ p{
     padding-bottom: 20px;
 }
 #free{
+    cursor: pointer;
     border: 2px;
     padding-left: 32px;
     padding-right: 32px;
@@ -298,7 +321,9 @@ video {
     background-size: contain;
     background-position: top;
 }
-
+#flexible{
+    padding-left: 3rem !important;
+}
 #row3{
     margin-top: -2rem;
     display: block;

@@ -34,6 +34,9 @@
     .col-lg-12{
         width: 100%;
     }
+    #smalllogo{
+        display: none;
+    }
     #intr1{
         padding: 6rem 15px 0px 15px;
     }
@@ -63,13 +66,25 @@
     .col-md-12{
         width: 100%;
     }
-
+    #navbar{
+        height: 80px;
+    }
+    .navlist{
+        padding-top: 20px;
+    }
+    #logo{
+        display: none;
+    }
     #team, #techdeg{
         display: none;
     }
     #icons{
         float: left;
     }
+    .container{
+        padding-top: 15px;
+        padding-left: 5px;
+        float: left;}
 }
 @media(max-width: 767px) and (min-width: 680px)
 {
@@ -96,13 +111,25 @@
     .col-sm-12{
         width: 100%;
     }
-
+    #navbar{
+        height: 80px;
+    }
+    .navlist{
+        padding-top: 20px;
+    }
+    #logo{
+        display: none;
+    }
     #team, #techdeg, #sign{
         display: none;
     }
     #icons{
         float: left;
     }
+    .container{
+        padding-top: 15px;
+        padding-left: 5px;
+        float: left;}
     
 }
 @media (max-width: 679px)
@@ -131,6 +158,9 @@
         width: 100%;
     }
 
+    #logo{
+        display: none;
+    }
     #team, #techdeg, #sign{
         display: none;
     }
@@ -143,6 +173,9 @@
     }
     #navbar{
         height: 80px;
+    }
+    .navlist{
+        padding-top: 20px;
     }
     .container{
         padding-top: 15px;
