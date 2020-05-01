@@ -66,6 +66,10 @@
     .col-md-12{
         width: 100%;
     }
+
+    .row{
+        padding-top: 90px;
+    }
     #navbar{
         height: 80px;
     }
@@ -110,6 +114,9 @@
     }
     .col-sm-12{
         width: 100%;
+    }
+    .row{
+        padding-top: 90px;
     }
     #navbar{
         height: 80px;
@@ -158,6 +165,9 @@
         width: 100%;
     }
 
+    .row{
+        padding-top: 90px;
+    }
     #logo{
         display: none;
     }
