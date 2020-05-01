@@ -164,9 +164,6 @@
     #team, #techdeg, #sign{
         display: none;
     }
-    #trial{
-        padding-right: 5px;
-    }
     #icons{
         float: left;
         text-align: left;
