@@ -48,7 +48,7 @@
 {
     #trial{
         z-index: -1;
-        float: right
+        float: right;
         position: absolute;
         width: 8em;
         right: 4rem;
@@ -191,7 +191,8 @@
         float: none;
         position: absolute;
         width: 8em;
-        right: -34px;
+        right: -30px;
+        margin-right: 8px;
         top: 20px;
     }
     .row{
